@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = "/";
 
 client.on('ready', () => {
-    console.log('GOTOWY DO DZIAŁANIA');
+    console.log('LECIMY Z TEMATEM');
 });
 
 client.on('ready', () => {
