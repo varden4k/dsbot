@@ -6,12 +6,6 @@ client.on('ready', () => {
     console.log('GOTOWY DO DZIAŁANIA');
 });
 
-client.on('message', msg => {
-  if (msg.content === prefix + 'raz') {
-    msg.channel.send('harr skurwysyny XD') 
-  	}
-});
-
 const discord = require('discord.js');
 const client = new discord.Client();
 
@@ -20,8 +14,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (msg.content === prefix + 'raz') {
+    	msg.channel.send('test');
   	}
 });
 
