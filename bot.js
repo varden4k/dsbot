@@ -10,6 +10,16 @@ client.on('message', message => {
     	message.reply('pong');
   	}
 });
+client.on('ready', () => {
+        client.user.setActivity('szant', {type: 'LISTENING'});
+    client.user.setUsername("Pirat");
+
+    if (running == false) {
+        console.log("Bot running! (Took: " + ((new Date()).getTime() - loadstart.getTime()) + " ms)");
+        running = true;
+    }
+
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
