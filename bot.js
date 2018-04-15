@@ -7,10 +7,6 @@ client.on('ready', () => {
     client.user.setActivity('szanty', {type: 'LISTENING'});
 });
 
-client.on('ready', () => {
-        client.setStatus('dnd', 'SZANTY');
-});
-
 
 client.on('message', message => {
     if (msg.content === prefix + 'raz') {
