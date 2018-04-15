@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === prefix + 'raz') {
-    msg.channel.sendMessage('harr skurwysyny XD') 
+    msg.channel.send('harr skurwysyny XD') 
   	}
 });
 
