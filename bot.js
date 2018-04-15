@@ -3,21 +3,21 @@ const client = new Discord.Client();
 const prefix = "/";
 
 client.on('ready', () => {
-    console.log('PLEBS');
+    console.log('PLEBS2');
     client.user.setActivity('szanty', {type: 'LISTENING'});
 });
 
 
 client.on('message', message => {
-    if (msg.content === prefix + 'raz') {
-        msg.channel.send('test');
+    if (message.content === prefix + 'raz') {
+        message.channel.send('test');
       }
 });
 
  client.on('message', msg => {
-  if (msg.content === prefix + 'kostka') {
+  if (message.content === prefix + 'kostka') {
     var roll = Math.floor(Math.random() * 6) + 1;
-             msg.channel.send({
+             message.channel.send({
       embed: {
         color: 3447003,
         description: msg.author + ', wylosowałeś: ' + roll,
