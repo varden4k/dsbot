@@ -12,7 +12,7 @@ client.on('message', message => {
   });
 client.on('ready', () => {
   client.user.setActivity('szanty', {type: 'LISTENING'});
-  client.set
+  client.set <------- co to kurwa?
 });
 
 // THIS  MUST  BE  THIS  WAY
