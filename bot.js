@@ -6,9 +6,6 @@ client.on('ready', () => {
     console.log('GOTOWY DO DZIAŁANIA');
 });
 
-const discord = require('discord.js');
-const client = new discord.Client();
-
 client.on('ready', () => {
         client.user.setActivity('szanty', {type: 'LISTENING'});
 });
