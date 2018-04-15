@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    msg.channel.sendMessage('✅ Ready') 
+    console.log('GANG KURWA');
 });
 
 client.on('message', message => {
