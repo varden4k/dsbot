@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = "/";
 
 client.on('ready', () => {
-    console.log('DZIAŁA TEST 123');
+    console.log('DZIAŁA TEST3123123213123');
     client.user.setActivity('szanty', {type: 'LISTENING'});
 });
 
