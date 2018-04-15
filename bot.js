@@ -1,11 +1,11 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = "/";
-const cennik = require('cennik.json');
+const cennik = require('./cennik.js');
 
 
 client.on('ready', () => {
-    console.log(' PLEBS BUILD 6 ')
+    console.log(' PLEBS BUILD 7 ')
     client.user.setUsername("PIRAT");
     client.user.setStatus('dnd');
     client.user.setActivity('szanty', {type: 'LISTENING'});
@@ -17,7 +17,7 @@ client.on('message', async message => {
         let args = message.content.toLowerCase().split(/ +/);
         switch (args[0]) {
             case '/c':
-                msg.channel.send(client.cennik.args[1])
+                msg.channel.send(client.cennik.args[1]);
             break;
         }
 });
