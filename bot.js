@@ -4,7 +4,7 @@ const prefix = "/";
 
 client.on('ready', () => {
     console.log('PLEBS4')
-    client.user.setUsername("Pirat");
+    client.user.setUsername("PIRAT");
     client.user.setStatus('dnd');
     client.user.setActivity('szanty', {type: 'LISTENING'});
 });
