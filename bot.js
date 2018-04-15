@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = "/";
-const cennik = require("cennik.js");
+const cennik = require("./cennik.js");
 
 
 client.on('ready', () => {
