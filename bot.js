@@ -7,7 +7,6 @@ client.on('ready', () => {
 
 client.on('ready', () => {
   client.user.setActivity('szanty', {type: 'LISTENING'});
-  client.set <------- co to kurwa?
 });
 
 client.on('message', msg => {
