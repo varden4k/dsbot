@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    console.log('I am ready!');
+    msg.channel.sendMessage('✅ Ready') 
 });
 
 client.on('message', message => {
@@ -11,7 +11,7 @@ client.on('message', message => {
   	}
   });
 client.on('ready', () => {
-  client.user.setGame("szanty", String);
+  client.user.setActivity('szanty', {type: 'LISTENING'});
   client.set
 });
 
