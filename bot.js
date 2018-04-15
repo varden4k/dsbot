@@ -5,12 +5,22 @@ const narko = require('cennik.json');
 
 
 client.on('ready', () => {
-    console.log('PLEBS4')
+    console.log('PLEBS5')
     client.user.setUsername("PIRAT");
     client.user.setStatus('dnd');
     client.user.setActivity('szanty', {type: 'LISTENING'});
 });
 
+
+client.on('message', async message => {
+
+        let args = message.content.toLowerCase().split(/ +/);
+        switch (args[0]) {
+            case '/c':
+                msg.channel.send(client.cennik.args[1])
+            break;
+        }
+});
 
 
 // THIS  MUST  BE  THIS  WAY
