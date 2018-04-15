@@ -4,6 +4,7 @@ const prefix = "/";
 
 client.on('ready', () => {
     console.log('PLEBS2');
+    client.user.setStatus('dnd');
     client.user.setActivity('szanty', {type: 'LISTENING'});
 });
 
