@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = "/";
 
 client.on('ready', () => {
-    console.log('PLEBS3')
+    console.log('PLEBS4')
     client.user.setUsername("Pirat");
     client.user.setStatus('dnd');
     client.user.setActivity('szanty', {type: 'LISTENING'});
