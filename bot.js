@@ -5,7 +5,7 @@ const cennik = require('cennik.json');
 
 
 client.on('ready', () => {
-    console.log('PLEBS5')
+    console.log(' PLEBS BUILD 6 ')
     client.user.setUsername("PIRAT");
     client.user.setStatus('dnd');
     client.user.setActivity('szanty', {type: 'LISTENING'});
