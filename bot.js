@@ -7,6 +7,8 @@ client.on('ready', () => {
     client.user.setActivity('szanty', {type: 'LISTENING'});
 });
 
+client.user.setStatus('dnb')
+
 client.on('message', message => {
     if (msg.content === prefix + 'raz') {
         msg.channel.send('test');
